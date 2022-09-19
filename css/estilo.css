@@ -6,11 +6,16 @@
 .container {
     position: relative;
 }
-  
+
+.padding{
+    padding-top: 25px;
+    padding-inline-start: 50px;
+}
 .bottomright {
+    height: auto;
+    width: auto;
     position: absolute;
-    padding: ;
-    bottom: 450px;
+    bottom: 200px;
     right: 120px;
     font-size: 18px;
     color: white;    
@@ -18,7 +23,7 @@
 
 .bottom{
     position: absolute;
-    bottom: 400px;
+    bottom: 170px;
     right: 120px;
     font-size: 18px;
 }

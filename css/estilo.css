@@ -15,7 +15,7 @@
     height: auto;
     width: auto;
     position: absolute;
-    bottom: 200px;
+    bottom: 450px;
     right: 120px;
     font-size: 18px;
     color: white;    
@@ -23,7 +23,7 @@
 
 .bottom{
     position: absolute;
-    bottom: 170px;
+    bottom: 300px;
     right: 120px;
     font-size: 18px;
 }

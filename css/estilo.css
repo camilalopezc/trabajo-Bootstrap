@@ -4,7 +4,7 @@
     opacity: 50%;
 }
 .container {
-    position: relative;
+    position: absolute;
 }
 
 .backgroud1{
@@ -32,8 +32,8 @@
     right: 300px;
     font-size: 18px;
 }
-.wrap-textp{
+.wrap-texto{    
     color: white;
     text-align: center;
-    width: 50%;
+    width: 50%;    
 }

@@ -7,6 +7,10 @@
     position: relative;
 }
 
+.backgroud1{
+    background-image: url(/img/ba1.jpg);
+}
+
 .padding{
     padding-top: 25px;
     padding-inline-start: 50px;
@@ -15,8 +19,9 @@
     height: auto;
     width: auto;
     position: absolute;
+    text-align: center;
     bottom: 450px;
-    right: 120px;
+    right: 300px;
     font-size: 18px;
     color: white;    
 }
@@ -24,6 +29,11 @@
 .bottom{
     position: absolute;
     bottom: 400px;
-    right: 120px;
+    right: 300px;
     font-size: 18px;
+}
+.wrap-textp{
+    color: white;
+    text-align: center;
+    width: 50%;
 }

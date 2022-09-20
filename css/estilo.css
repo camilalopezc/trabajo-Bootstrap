@@ -7,8 +7,9 @@
     position: absolute;
 }
 
-.backgroud1{
-    background-image: url(/img/ba1.jpg);
+.background1{
+    background-image: url(img/ba1.jpg);
+    display: flexbox;
 }
 
 .padding{
@@ -18,6 +19,7 @@
 .bottomright {
     height: auto;
     width: auto;
+    max-width: fit-content;
     position: absolute;
     text-align: center;
     bottom: 450px;
@@ -36,4 +38,16 @@
     color: white;
     text-align: center;
     width: 50%;    
+}
+
+element.style {
+    color: #000;
+    width: 100%;
+    border: 1px solid gray;
+    padding: 16px;
+    background: #e1efbb url(mountain.jpg);
+}
+
+.position-center{
+    margin-left: 100px;
 }

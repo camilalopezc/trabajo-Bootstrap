@@ -3,19 +3,16 @@
     width: auto;
     opacity: 50%;
 }
+
 .container {
     position: absolute;
-}
-
-.background1{
-    background-image: url(img/ba1.jpg);
-    display: flexbox;
 }
 
 .padding{
     padding-top: 25px;
     padding-inline-start: 50px;
 }
+
 .bottomright {
     height: auto;
     width: auto;
@@ -34,18 +31,11 @@
     right: 300px;
     font-size: 18px;
 }
+
 .wrap-texto{    
     color: white;
     text-align: center;
     width: 50%;    
-}
-
-element.style {
-    color: #000;
-    width: 100%;
-    border: 1px solid gray;
-    padding: 16px;
-    background: #e1efbb url(mountain.jpg);
 }
 
 .position-center{

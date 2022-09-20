@@ -4,8 +4,8 @@
     opacity: 50%;
 }
 
-.container {
-    position: absolute;
+.contenedor {
+    position: relative;
 }
 
 .padding{
@@ -16,7 +16,7 @@
 .bottomright {
     height: auto;
     width: auto;
-    max-width: fit-content;
+    max-width: max-content;
     position: absolute;
     text-align: center;
     bottom: 450px;

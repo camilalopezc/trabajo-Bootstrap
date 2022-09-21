@@ -37,11 +37,17 @@
 }
 
 .position-center{
-    margin-left: 100px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.padding2{
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .borderbox {
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
   
 .img-container {

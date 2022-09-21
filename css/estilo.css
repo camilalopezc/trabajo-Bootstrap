@@ -13,6 +13,10 @@
     padding-inline-start: 50px;
 }
 
+.margin{
+    margin-left: 250px;
+}
+
 .bottomright {
     height: auto;
     max-width: 700px;

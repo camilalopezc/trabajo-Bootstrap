@@ -16,6 +16,7 @@
 .bottomright {
     height: auto;
     max-width: 700px;
+    min-width: 500px;
     margin: auto;
     position: absolute;
     bottom: 450px;
@@ -31,12 +32,18 @@
     font-size: 18px;
 }
 
-.wrap-texto{    
-    color: white;
-    text-align: center;
-    width: 50%;   
-}
-
 .position-center{
     margin-left: 100px;
+}
+
+.imgBsAs2{
+    float: left;
+    height: auto;
+    width: auto;
+    max-width: 600px;
+    min-width: 400px;
+}
+
+.letra{
+    color: white;
 }

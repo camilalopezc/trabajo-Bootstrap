@@ -41,9 +41,36 @@
     padding-right: 90px;
 }
 
+.bottom-1{
+    padding-bottom: 25px;
+}
+
+.espacio{
+    padding-top: 25px;
+}
+
 .padding2{
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 25px;
+}
+
+.padding3{
+    padding-left: 100px;
+    padding-right: 30px;
+}
+
+.padding4{
+    padding-right: 50px;  
+}
+
+.padding4-1{
+    padding-right: 30px;
+}
+
+.padding5{
+    padding-right: 100px;
+    padding-left: 50px;  
 }
 
 .borderbox {

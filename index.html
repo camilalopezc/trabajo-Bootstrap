@@ -46,10 +46,10 @@
         </div>
       </div> 
     <div class="text-center">
-      <h3>Conoce a los</h3>
-      <h2>Oradores</h2>
+      <h6>CONOCE A LOS</h6>
+      <h2>ORADORES</h2>
     </div>
-    <div class="position-center">
+    <div class="position-center clearfix">
       <div class="card d-inline-flex" style="width:380px">
         <img class="card-img-top" src="img/steve.jpg" alt="Steve Jobs">
         <div class="card-body">
@@ -79,12 +79,38 @@
       </div>
     </div>
 
-    <div class="bg-dark">
-      <img class="imgBsAs2 img-fluid" src="img/honolulu.jpg" alt="foto esquina Buenos Aires">
-      <h1 class="letra">Bs As - Octubre</h1>
-      <p class="letra">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos.Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al aréa urbana en la costa sureste de la isla Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km2 de superficie).</p>
-      <button type="button" class="btn btn-outline-light">Conocé más</button>
-    </div>   
+    <div class="borderbox clearfix">
+      <img class="img-fluid img-container" src="img/honolulu.jpg" alt="foto esquina Buenos Aires">
+      <div class="bg-dark letra text-container">
+        <h1>Bs As - Octubre</h1>
+        <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al aréa urbana en la costa sureste de la isla Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km2 de superficie).</p>
+        <button type="button" class="btn btn-outline-light">Conocé más</button> 
+      </div>         
+    </div>  
+
+    <div class="text-center">
+      <h6>CONVIERTETÉ EN UN</h6>
+      <h2>ORADOR</h2>
+    </div>
+
+    <form>
+      <div class="row">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Nombre" name="name">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Apellido" name="surname">
+        </div>
+      </div>
+    </form>
+    <form action="/action_page.php">
+      <div class="mb-3 mt-3">
+        <textarea class="form-control" rows="5" id="comment" placeholder="Sobre qué queres hablar" name="text"></textarea>
+      </div>
+      <div rows="5">
+        <button type="submit" class="btn btn-success">Enviar</button>
+      </div>      
+    </form>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>

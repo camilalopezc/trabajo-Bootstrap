@@ -1,7 +1,6 @@
 .imagenBsAs{
     height: auto;
     width: auto;
-    opacity: 50%;
 }
 
 .contenedor {
@@ -23,22 +22,22 @@
     min-width: 500px;
     margin: auto;
     position: absolute;
-    bottom: 450px;
-    right: 300px;
     font-size: 18px;
     color: rgba(255, 255, 255, 0.904);    
 }
 
 .bottom{
     position: absolute;
-    bottom: 400px;
-    right: 300px;
     font-size: 18px;
 }
 
 .position-center{
+    width: auto;
     padding-left: 90px;
     padding-right: 90px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 20px;
 }
 
 .bottom-1{
@@ -47,6 +46,11 @@
 
 .espacio{
     padding-top: 25px;
+}
+
+.margin1{
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 .padding2{
@@ -85,7 +89,7 @@
 
 .text-container{
     float: left;
-    height: auto;
+    height: 600px;
     width: 50%;
     padding: 5px;  
 }

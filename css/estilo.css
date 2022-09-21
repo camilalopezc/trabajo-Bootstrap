@@ -17,15 +17,15 @@
 }
 
 .background1{
-    background: rgb(14, 3, 165);
+    background: rgb(16, 53, 109);
 }
 
 .bottomright {
     height: auto;
     max-width: 600px;
     min-width: 400px;
-    margin-left: 950px;
-    margin-top: 500px;
+    padding-left: 950px;
+    padding-top: 500px;
     position: absolute;
     font-size: 18px;
     color: rgba(255, 255, 255, 0.904);
@@ -35,8 +35,8 @@
     height: auto;
     width: auto;
     position: absolute;
-    margin-top: 700px;
-    margin-left: 1300px;
+    padding-top: 700px;
+    padding-left: 1300px;
     font-size: 18px;
 }
 
@@ -56,8 +56,8 @@
 }
 
 .margin1{
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 350px;
+    margin-right: 350px;
 }
 
 .padding2{
@@ -67,21 +67,8 @@
 }
 
 .padding3{
-    padding-left: 100px;
-    padding-right: 30px;
-}
-
-.padding4{
-    padding-right: 50px;  
-}
-
-.padding4-1{
-    padding-right: 30px;
-}
-
-.padding5{
-    padding-right: 100px;
-    padding-left: 50px;  
+    padding-right:100px;
+    padding-left: 100px;  
 }
 
 * {

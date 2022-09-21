@@ -15,14 +15,13 @@
 
 .bottomright {
     height: auto;
-    width: auto;
-    max-width: max-content;
+    max-width: 700px;
+    margin: auto;
     position: absolute;
-    text-align: center;
     bottom: 450px;
     right: 300px;
     font-size: 18px;
-    color: white;    
+    color: rgba(255, 255, 255, 0.904);    
 }
 
 .bottom{
@@ -35,7 +34,7 @@
 .wrap-texto{    
     color: white;
     text-align: center;
-    width: 50%;    
+    width: 50%;   
 }
 
 .position-center{
